@@ -14,7 +14,7 @@ project/
 │   ├── physics/             # Physics modules (gravity, maneuvers)
 │   ├── api/                 # Maneuver APIs
 │   ├── models/              # Optional DB/models if needed
-|    ├── requirements.txt        # Python dependencies
+|   ├── requirements.txt        # Python dependencies
 │
 ├── frontend/                # React dashboard
 │
