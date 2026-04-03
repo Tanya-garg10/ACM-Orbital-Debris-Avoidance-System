@@ -4,7 +4,7 @@ function App() {
   const [data, setData] = useState({ satellites: [], debris_cloud: [] });
 
   useEffect(() => {
-    fetch("http://127.0.0.1:8000/api/visualization/snapshot")
+    fetch("https://acm-orbital-debris-avoidance-system-1.onrender.com/api/visualization/snapshot")
       .then(res => res.json())
       .then(res => setData(res));
   }, []);
